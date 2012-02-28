@@ -161,7 +161,7 @@ $(".foo div#bar:eq(0)")
 * Any familiarity with styling SVG? 
 * How do you optimize your webpages for print? 
 * What are some of the "gotchas" for writing efficient CSS? 
-* Do you use CSS preprocessors? 
+* CSS 전처리기 (예- LESS 와 같은) 를 사용합니까? 
 	* If so, describe what you like and dislike about the CSS preprocessors you have used. 
 * How would you implement a web design comp that uses non-standard fonts? (avoid mentioning webfonts so they can figure it out) 
 * Explain how a browser determines what elements match a CSS selector?  
@@ -181,6 +181,6 @@ $(".foo div#bar:eq(0)")
 	* Bonus if it's a combo and a good reason was given (+2 for zombie monkey pirate ninjas) 
 * If not Web Development what would you be doing? 
 * Where in the world is Carmen Sandiego? (hint: their answer is always wrong) 
-* What's your favorite feature of Internet Explorer?
-* Complete this sentence: Brendan Eich and Doug Crockford are the __________ of javascript.
-* jQuery: a great library or the greatest library? Discuss.
+* 자주쓰는 인터넷 익스플로러의 기능은 무엇입니까?
+* 이 문장을 완성하세요: Brendan Eich 와 Doug Crockford 는 자바스크립트의 __________ 이다.
+* jQuery: 멋진 라이브러리나 최고의 라이브러리가 있다면 의견 주세요.
