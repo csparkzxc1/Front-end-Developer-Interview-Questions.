@@ -1,4 +1,4 @@
-﻿#구직 면접 설문지
+#구직 면접 설문지
 
 @버전 1.0
  
@@ -32,34 +32,34 @@ EngForDev.com
 * 특정 디자인에 대해 8개의 스타일시트가 있다면 이것들을 한 사이트로 어떻게 통합하겠습니까?
 	* Looking for file concatenation.
 	* Points off for `@import`, unless it works in conjunction with a build system.  
-* If you jumped on a project and they used tabs and you used spaces, what would you do? 
-	* `issue :retab! command`
-* Write a simple slideshow page 
-	* Bonus points if it does not use JS.  
-* What tools do you use to test your code's performance? 
-* If you could master one technology this year, what would it be? 
-* Name 3 ways to decrease page load. (perceived or actual load time) 
-* Explain the importance of standards.  
+* 프로젝트에 투입되었는데, 코드의 들여쓰기에 기존 인력들은 탭을 써 왔고, 당신은 스페이스를 사용해 왔다면, 어떻게 할 건가요? 
+	* `:retab! 커맨드에 관한 문제임`
+* 간단한 슬라이드쇼 페이지를 작성해 보세요
+	* 자바스크립트를 사용하지 않는다면 추가 점수를 줍니다.
+* 코드의 성능을 테스트할 때 어떤 도구를 사용하십니까?
+* 올해 한 가지 기술을 마스터할 수 있다면 뭘 마스터하시겠습니까?
+* 페이지 부하(인지적 부하 시간과 실제 부하 시간)를 줄이는 3가지 방법을 말씀하세요.
+* 표준의 중요성을 설명하세요.
 
-## HTML-Specific Questions:
+## HTML 관련 질문:
 
-* What's a `doctype` do, and how many can you name? 
-* What's the difference between standards mode and quirks mode? 
-* What are the limitations when serving XHTML pages? 
-	* Are there any problems with serving pages as `application/xhtml+xml`?  
-* How do you serve a page with content in multiple languages? 
-* Can you use XHTML syntax in HTML5? How do you use XML in HTML5? 
-* What are `data-` attributes good for? 
-* What are the content models in HTML4 and are they different in HTML5? 
-* Consider HTML5 as an open web platform. What are the building blocks of HTML5? 
-* Describe the difference between cookies, sessionStorage and localStorage.  
+* `doctype`이 하는 일은 뭔가요? `doctype`을 몇 개나 댈 수 있나요?
+* 스탠더드 모드와 관용(쿼크) 모드간의 차이를 말해 보세요. 
+* XHTML 페이지를 운용할 때 발생하는 제약으로는 뭐가 있나요?
+	* 페이지를 `application/xhtml+xml`로 운용할 때 발생하는 문제가 있을까요?  
+* 다국어로 작성된 컨텐츠를 가지고있는 페이지를 어떻게 보여줄건가요? 
+* HTML5에서 XHTML 구문을 사용할 줄 아나요? HTML5에서 XML을 어떻게 사용하나요?
+* `data-` attributes를 어디에 쓰면 좋나요?
+* HTML4의 content model은 무엇인가요? 그리고 HTML5의 content model하고는 다른가요? 
+* HTML5를 개방형 웹 플랫폼으로 생각해봅시다. HTML5의 기본 구성요소는?
+* 쿠키, 세션 스토리지(sessionStorage), 로컬 스토리지(locationStorage)의 차이점을 서술하세요.
 
-## JS-Specific Questions
+## 자바스크립트에 관한 질문들
 
-* Which JavaScript libraries have you used? 
-* How is JavaScript different from Java? 
-* What are `undefined` and `undeclared` variables? 
-* What is a closure, and how/why would you use one? 
+* 어떤 자바스크립트 라이브러리를 사용해 봤나요?
+* 자바와 자바스크립트의 차이점은?
+* 미정의(`undefined`)와 미선언(`undeclared`) 변수에 대해 설명해보세요.
+* 클로저(closure)란 무엇이고 클로저를 왜/언제 사용할까요?
 	* Your favorite pattern used to create them? argyle (Only applicable to IIFEs)  
 * What's a typical use case for anonymous functions? 
 * Explain the "JavaScript module pattern" and when you'd use it. 
