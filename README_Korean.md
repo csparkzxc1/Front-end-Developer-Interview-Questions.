@@ -1,33 +1,35 @@
-#±¸Á÷ ¸éÁ¢ ¼³¹®Áö
+ï»¿#êµ¬ì§ ë©´ì ‘ ì„¤ë¬¸ì§€
 
-@¹öÀü 1.0
+@ë²„ì „ 1.0
  
-##¿øº» Âü¿©ÀÚ
+##ì›ë³¸ ì°¸ì—¬ì
 
 @bentruyman (http://bentruyman.com/), @roger_raymond (http://twitter.com/iansym), @ajpiano (http://ajpiano.com/), @paul_irish (http://paulirish.com/), @SlexAxton (http://alexsexton.com/), @boazsender (http://boazsender.com/), @miketaylr (http://miketaylr.com/), @vladikoff (http://vladfilippov.com/), @gf3 (http://gf3.ca/), @jon_neal (http://twitter.com/jon_neal), @wookiehangover (http://wookiehangover.com/) and @darcy_clarke (http://darcyclarke.me)
 
-##ÇÑ±Û¹ø¿ª Âü¿©ÀÚ (Contributors For Korean Version)
+##í•œê¸€ë²ˆì—­ ì°¸ì—¬ì (Contributors For Korean Version)
 
-nassol(³ª¼Ö) , rkJun (http://twitter.com/rkjun), leedaeyeop(ÀÌ´ë¿±), sj38.park, tw shim
+EngForDev.com
+@nassol(http://engfordev.com) , @rkJun (http://twitter.com/rkjun), @leedaeyeop(ì´ëŒ€ì—½), @sj38.park, @tw shim,
+@ì›ê°•ë¯¼(http://www.apollocation.co.kr/)
 
-## ÀÏ¹İÀûÀÎ Áú¹®:
+## ì¼ë°˜ì ì¸ ì§ˆë¬¸:
 
-* Æ®À§ÅÍ »ç¿ëÇÏ½Ã³ª¿ä? 
-	* Æ®À§ÅÍ¸¦ »ç¿ëÇÑ´Ù¸é, Æ®À§ÅÍ¿¡¼­ ´©±¸ ÆÈ·Î¿ìÇØ¿ä?
-* ±êÇéÀ» »ç¿ëÇÏ½Ã³ª¿ä? 
-	* »ç¿ëÇÏ½Å´Ù¸é ¾î¶² ¸®Æ÷ÁöÅÍ¸®¸¦ º¸°í°è½Å°¡¿ä? 
-* ¾î¶² ºí·Î±×¸¦ ±¸µ¶ÇÏ°í °è½Å°¡¿ä? 
-* ¾î¶² ¹öÀü°ü¸®½Ã½ºÅÛÀ» »ç¿ëÇÏ½Ã³ª¿ä? 
-* ¾î¶² °³¹ß È¯°æÀ» ¼±È£ÇÏ½Ã³ª¿ä?(¿î¿µÃ¼Á¦, ÅØ½ºÆ® ÆíÁı±â, ÀÎÅÍ³İ ºê¶ó¿ìÀú, ±âÅ¸)
-* À¥ ÆäÀÌÁö¸¦ ¾î¶»°Ô ¸¸µé¾ú´ÂÁö °úÁ¤À» ¼³¸íÇÒ ¼ö ÀÖ³ª¿ä?
-* ¿ì¾ÆÇÑ Åğº¸¿Í Á¡ÁøÀû °³¼±ÀÇ Â÷ÀÌÁ¡À» ¼³¸íÇØº¸¼¼¿ä.
-	* ¡°¾Æ¹«µµ ±×·± °ÍÀº ÇÒ ¼ö°¡ ¾ø½À´Ï´Ù.¡± ¶ó°í ´äÇÑ »ç¶÷¿¡°Ô´Â º¸³Ê½º Á¡¼ö¸¦ ÁØ´Ù.
-	* ÇÇÃÄ µğÅØ¼Ç(¾ó±¼ ÀÎ½Ä ±â¼úÀÎ°Å °°±âµµ..)À» ¼³¸íÇÒ ¼ö ÀÖ´Â º¸³Ê½º Æ÷ÀÎÆ®
-* Explain what "Semantic HTML" means. 
-* What does "minification" do? 
-* Why is it better to serve site assets from multiple domains? 
-	* How many resources will a browser download from a given domain at a time?  
-* If you have 8 different stylesheets for a given design, how would you integrate them into the site? 
+* íŠ¸ìœ„í„° ì‚¬ìš©í•˜ì‹œë‚˜ìš”? 
+	* íŠ¸ìœ„í„°ë¥¼ ì‚¬ìš©í•œë‹¤ë©´, íŠ¸ìœ„í„°ì—ì„œ ëˆ„êµ¬ íŒ”ë¡œìš°í•´ìš”?
+* ê¹ƒí—™ì„ ì‚¬ìš©í•˜ì‹œë‚˜ìš”? 
+	* ì‚¬ìš©í•˜ì‹ ë‹¤ë©´ ì–´ë–¤ ë¦¬í¬ì§€í„°ë¦¬ë¥¼ ë³´ê³ ê³„ì‹ ê°€ìš”? 
+* ì–´ë–¤ ë¸”ë¡œê·¸ë¥¼ êµ¬ë…í•˜ê³  ê³„ì‹ ê°€ìš”? 
+* ì–´ë–¤ ë²„ì „ê´€ë¦¬ì‹œìŠ¤í…œì„ ì‚¬ìš©í•˜ì‹œë‚˜ìš”? 
+* ì–´ë–¤ ê°œë°œ í™˜ê²½ì„ ì„ í˜¸í•˜ì‹œë‚˜ìš”?(ìš´ì˜ì²´ì œ, í…ìŠ¤íŠ¸ í¸ì§‘ê¸°, ì¸í„°ë„· ë¸Œë¼ìš°ì €, ê¸°íƒ€)
+* ì›¹ í˜ì´ì§€ë¥¼ ì–´ë–»ê²Œ ë§Œë“¤ì—ˆëŠ”ì§€ ê³¼ì •ì„ ì„¤ëª…í•  ìˆ˜ ìˆë‚˜ìš”?
+* ìš°ì•„í•œ í‡´ë³´ì™€ ì ì§„ì  ê°œì„ ì˜ ì°¨ì´ì ì„ ì„¤ëª…í•´ë³´ì„¸ìš”.
+	* â€œì•„ë¬´ë„ ê·¸ëŸ° ê²ƒì€ í•  ìˆ˜ê°€ ì—†ìŠµë‹ˆë‹¤.â€ ë¼ê³  ë‹µí•œ ì‚¬ëŒì—ê²ŒëŠ” ë³´ë„ˆìŠ¤ ì ìˆ˜ë¥¼ ì¤€ë‹¤.
+	* í”¼ì³ ë””í…ì…˜(ì–¼êµ´ ì¸ì‹ ê¸°ìˆ ì¸ê±° ê°™ê¸°ë„..)ì„ ì„¤ëª…í•  ìˆ˜ ìˆëŠ” ë³´ë„ˆìŠ¤ í¬ì¸íŠ¸
+* ì‹œë§¨í‹± HTML ì˜ ì˜ë¯¸ë¥¼ ì„¤ëª…í•´ ë³´ì„¸ìš”.
+* ìµœì†Œí™” í•œë‹¤ëŠ” ê±´ ë¬´ìŠ¨ ëœ»ì…ë‹ˆê¹Œ?
+* ì‚¬ì´íŠ¸ ìì‚°ì„ ì—¬ëŸ¬ ë„ë©”ì¸ì—ì„œ ì„œë¹„ìŠ¤í•˜ëŠ” ê²ƒì´ ì¢‹ì€ ì´ìœ ëŠ” ë¬´ì—‡ì…ë‹ˆê¹Œ?
+	* ë¸Œë¼ìš°ì €ëŠ” íŠ¹ì • ë„ë©”ì¸ì˜ ìì›ì„ í•œ ë²ˆì— ì–¼ë§ˆë‚˜ ë‹¤ìš´ë¡œë“œí•©ë‹ˆê¹Œ?
+* íŠ¹ì • ë””ìì¸ì— ëŒ€í•´ 8ê°œì˜ ìŠ¤íƒ€ì¼ì‹œíŠ¸ê°€ ìˆë‹¤ë©´ ì´ê²ƒë“¤ì„ í•œ ì‚¬ì´íŠ¸ë¡œ ì–´ë–»ê²Œ í†µí•©í•˜ê² ìŠµë‹ˆê¹Œ?
 	* Looking for file concatenation.
 	* Points off for `@import`, unless it works in conjunction with a build system.  
 * If you jumped on a project and they used tabs and you used spaces, what would you do? 
