@@ -2,7 +2,7 @@
 
 @버전 1.0
  
-##원본 참여자
+##원본(English) 참여자
 
 @bentruyman (http://bentruyman.com/), @roger_raymond (http://twitter.com/iansym), @ajpiano (http://ajpiano.com/), @paul_irish (http://paulirish.com/), @SlexAxton (http://alexsexton.com/), @boazsender (http://boazsender.com/), @miketaylr (http://miketaylr.com/), @vladikoff (http://vladfilippov.com/), @gf3 (http://gf3.ca/), @jon_neal (http://twitter.com/jon_neal), @wookiehangover (http://wookiehangover.com/) and @darcy_clarke (http://darcyclarke.me)
 
@@ -79,107 +79,107 @@ function Person(){} var person = Person() var person = new Person()
 	* 설명하려고 시도한다면 추가 점수를 준다.
 * 언제 `document.write()` 를 사용하나요?
 	* 올바른 답: 1999년 - 이제 미숙한 개발 관행은 뿌리뽑을 때다.
-* What's the difference between feature detection, feature inference, and using the UA string 
-* Explain AJAX in as much detail as possible 
-* Explain how JSONP works (and how it's not really AJAX) 
-* Have you ever used JavaScript templating, and if so, what/how? 
-* Explain "hoisting". 
-* What is FOUC? How do you avoid FOUC? 
-* Describe event bubbling. 
-* What's the difference between an "attribute" and a "property"? 
-* Why is extending built in JavaScript objects not a good idea? 
-* Why is extending built ins a good idea? 
-* Difference between document load event and document ready event? 
-* What is the difference between `==` and `===`? 
-* Explain how you would get a query string parameter from the browser window's URL. 
-* Explain the same-origin policy with regards to JavaScript. 
-* Explain event delegation. 
-* Describe inheritance patterns in JavaScript. 
-* Make this work: 
+* 기능 탐지(feature detection)와 기능 추론(feature inference), UA 문자열의 차이점은?
+* AJAX에 관해 가능한 한 자세하게 설명하시오.
+* JSONP의 작동 방식을 설명하시오(그리고 어떻게 JSONP가 진정한 AJAX가 아닌지도).
+* 자바스크립트 템플릿을 써본 적이 있습니까? 그렇다면 무엇을 어떻게 쓰셨나요?
+* 호이스팅(hoisting)에 관해 설명하시요.
+* FOUC가 뭔가요? FOUC를 피하는 방법은?
+* 이벤트 버블링에 관해 설명하시오.
+* 어트리뷰트(attribute)와 프로퍼티(property)의 차이점은?
+* 자바스크립트 객체에 내장된 기능을 확장하는 것이 안 좋은 이유는?
+* 내장 기능(built ins)을 확장하는 것이 좋은 이유는? 
+* document load 이벤트와 document ready 이벤트의 차이점은?
+* `==` 와 `===`의 차이점은?
+* 브라우저 창의 URL로 전달된 질의 문자열 매개변수를 가져하는 방법을 설명해 보세요.
+* 자바스크립트와 관련된 동일 출처 정책(same-origin policy)에 관해 설명해 보세요.
+* 이벤트 위임에 대해 설명해 보세요.
+* 자바스크립트의 상속 패턴에 대해 설명해 보세요.
+* 아래의 자바스크립트 코드를 작동하게 만드세요: 
 ```javascript
 [1,2,3,4,5].duplicator(); // [1,2,3,4,5,1,2,3,4,5]
 ```
-* Describe a strategy for memoization (avoiding calculation repetition) in JavaScript. 
-* Why is it called a Ternary statement, what does the word "Ternary" indicate? 
-* What is the arity of a function?  
+* 자바스크립트에서의 메모이제이션(memoization, 반복적인 계산을 방지하는) 전략을 설명하시요.
+* 삼항문(Tenary statement)을 왜 이렇게 부르고 여기서 “삼항”이라는 단어가 가리키는 의미는?
+* 함수에서 인자의 개수(arity)란 뭔가요?
 
 ## JS-Code Examples:
 
 ```javascript
 >~~3.14
 ```
-Question: What value is returned from the above statement? 
-**Answer: 3** 
+질문: 위 구문은 어떤 값을 돌려주는가? 
+**답: 3** 
 
 ```javascript
 "i'm a lasagna hog".split("").reverse().join("");
 ```
-Question: What value is returned from the above statement? 
-**Answer: "goh angasal a m'i"** 
+질문: 위 구문은 어떤 값을 돌려주는가? 
+**답: "goh angasal a m'i"** 
 
 ```javascript
 ( window.foo || ( window.foo = "bar" ) );
 ```
-Question: What is the value of window.foo? 
-**Answer: "bar"** 
-if intially window.foo was false, undefined or zero else it will retain its value.
+질문: window.foo의 값은 무엇인가? 
+**답: "bar"** 
+window.foo의 초기값이 false나 udefined, 또는 0일 경우. 그 밖의 경우에는 기존 값을 유지
 
 ```javascript
 var foo = "Hello"; (function() { var bar = " World"; alert(foo + bar); })(); alert(foo + bar);
 ```
-Question: What is the outcome of the two alerts above? 
-**Answer: "Hello World" & ReferenceError: bar is not defined** 
+질문: 두 alert 문의 결과는?
+**답: "Hello World" 와 ReferenceError: bar is not defined** 
 
-## jQuery-Specific Questions:
+## jQuery 관련 질문:
 
-* Explain "chaining". 
-* What does `.end()` do? 
-* How, and why, would you namespace a bound event handler? 
-* What is the effects (or fx) queue? 
-* What is the difference between `.get()`, `[]`, and `.eq()`? 
-* What is the difference between `.bind()`, `.live()`, and `.delegate()`? 
-* What is the difference between `$` and `$.fn`? Or just what is `$.fn`. 
-* Optimize this selector: 
+* “메서드 연쇄 호출(chaining)”에 관해 설명하세요.
+* `.end()`가 하는 것은 무엇인가요? 
+* 이벤트 핸들러를 바인딩할 때 네임스페이스를 지정하는 방법과 그 이유는?
+* 효과(또는 fx) 큐란?
+* `.get()`, `[]`, 와 `.eq()` 의 차이점은 무엇인가요?? 
+* `.bind()`, `.live()`, 와 `.delegate()` 간의 차이는 무엇인가요?
+* `$` 와 `$.fn`의 차이점은? 또 `$.fn`은 무엇인가요?
+* 다음 셀렉터를 최적화해보세요: 
 ```javascript
 $(".foo div#bar:eq(0)")
 ```
 
-## CSS-Specific Questions:
+## CSS 관련 질문:
 
-* Describe what a "reset" CSS file does and how it's useful. 
-* Describe Floats and how they work. 
+* CSS의 "리셋(reset)" 이 무엇인지와 장점에 대해 설명하세요.
+* Floats에 대해 설명하고, 어떤 방식으로 작동하는지 설명하세요.
 * What are the various clearing techniques and which is appropriate for what context? 
-* Explain CSS sprites, and how you would implement them on a page or site. 
-* What are the differences between the IE box model and the W3C box model? 
+* CSS의 sprite 기법을 설명하고, 어떤 방식으로 페이지나 사이트에 구현하는지를 설명하세요.
+* IE 박스모델과 W3C 박스 모델의 차이점은 무엇입니까?
 * What are your favourite image replacement techniques and which do you use when? 
-* CSS property hacks, conditionally included .css files, or... something else? 
-* How do you serve your pages for feature-constrained browsers? 
-	* What techniques/processes do you use?  
-* What are the different ways to visually hide content (and make it available only for screen readers)? 
-* Have you ever used a grid system, and if so, what do you prefer? 
+* CSS 프로퍼티 핵, 조건부 .css 파일 포함시키기, ...그리고 또 뭐가 있나요?
+* 기능이 제한되어있는 브라우저에서 어떻게 페이지를 보여줍니까?
+	* 사용하는 기술/처리기법은 무엇입니까?
+* 화면에 보여주는 컨텐츠를 숨기는 다른 방법들은 무엇입니까? (화면에 보이진 않아도, 화면을 읽어주는 프로그램-음성출력같은-에서는 가능해야함)
+* 그리드 시스템을 사용한 경험이 있다면, 어떤 그리드 시스템을 선호합니까?
 * Have you used or implement media queries or mobile specific layouts/CSS? 
 * Any familiarity with styling SVG? 
-* How do you optimize your webpages for print? 
+* 웹페이지의 인쇄를 최적화하기 위해서는 어떻게 합니까?
 * What are some of the "gotchas" for writing efficient CSS? 
-* CSS 전처리기 (예- LESS 와 같은) 를 사용합니까? 
+* CSS 전처리기를 사용합니까? 
 	* If so, describe what you like and dislike about the CSS preprocessors you have used. 
 * How would you implement a web design comp that uses non-standard fonts? (avoid mentioning webfonts so they can figure it out) 
 * Explain how a browser determines what elements match a CSS selector?  
 
 ## Optional fun Questions:
 
-* What's the coolest thing you've ever coded, what are you most proud of? 
-* Do you know the HTML5 gang sign? 
+* 지금까지중 가장 멋지게 코딩했던 것은 무엇인지, 그리고 가장 자랑스러웠던 것은?
+* HTML5 갱 사인을 아시나요? (역주: 셋과 둘, 또는 넷과 하나를 표시하는 행위)
 * Are you now, or have you ever been, on a boat. 
-* Tell me your favorite parts about Firebug / Webkit Inspector. 
+* 파이어버그/웹킷 인스펙터에서 가장 좋아하는 부분을 말해 보세요.
 * Do you have any pet projects? What kind? 
 * Explain the significance of "cornify". 
 * On a piece of paper, write down the letters A B C D E vertically. Now put these in descending order without writing one line of code. 
 	* Wait and see if they turn the paper upside down
 * This should make the laugh and is a fine way to relieve some tension at the end of the interview.  
-* Pirate or Ninja? 
+* 해적 또는 닌자?
 	* Bonus if it's a combo and a good reason was given (+2 for zombie monkey pirate ninjas) 
-* If not Web Development what would you be doing? 
+* 웹 개발이 아니었다면, 무엇을 하고 있었을 것 같습니까?
 * Where in the world is Carmen Sandiego? (hint: their answer is always wrong) 
 * 자주쓰는 인터넷 익스플로러의 기능은 무엇입니까?
 * 이 문장을 완성하세요: Brendan Eich 와 Doug Crockford 는 자바스크립트의 __________ 이다.
